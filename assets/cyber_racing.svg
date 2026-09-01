@@ -170,7 +170,7 @@
   <!-- Bottom Diagnostic Telemetry Footer -->
   <g transform="translate(40, 292)">
     <line x1="0" y1="-10" x2="920" y2="-10" stroke="#1e293b" stroke-width="1" />
-    <text x="0" y="6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#64748b">MODE: AUTONOMOUS TELEMETRY &bull; VEHICLE: DEVAGANESH-SEC-01 &bull; CIRCUIT: INFINITY_CONTRIBUTION_LOOP</text>
+    <text x="0" y="6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#64748b">MODE: AUTONOMOUS TELEMETRY • VEHICLE: DEVAGANESH-SEC-01 • CIRCUIT: INFINITY_CONTRIBUTION_LOOP</text>
     <text x="750" y="6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#10b981">INTEGRITY: 100% VERIFIED [PASS]</text>
   </g>
 </svg>
