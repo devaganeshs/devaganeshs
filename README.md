@@ -1,21 +1,26 @@
 <div align="center">
 
-  <!-- AVATAR / PROFILE PHOTO -->
-  <img src="assets/avatar.svg" alt="Devaganesh S Profile Avatar" width="130" height="130" style="border-radius: 50%; max-width: 100%;" />
+  <!-- HERO BANNER -->
+  <img src="assets/banner.svg" alt="Devaganesh S — Cybersecurity & Systems Engineer Banner" width="100%" />
+
+  <br /><br />
+
+  <!-- AVATAR & IDENTITY -->
+  <img src="assets/avatar.svg" alt="Devaganesh S Profile Avatar" width="115" height="115" style="border-radius: 50%; max-width: 100%;" />
 
   <br />
 
   # DEVAGANESH S
-  
-  **Cybersecurity Undergraduate &bull; RHCSA Certified &bull; Linux &bull; Web Security &bull; Cryptography &bull; Security Engineering**
+
+  **Cybersecurity-Focused Engineer &bull; Linux &amp; System Administration &bull; Web Security &bull; Cryptography &bull; Security Engineering**
 
   <br />
 
   [![Location](https://img.shields.io/badge/Location-Kumbakonam%2C%20Tamil%20Nadu%2C%20India-0F172A?style=flat-square&logo=googlemaps&logoColor=38BDF8)](https://maps.google.com/?q=Kumbakonam,+Tamil+Nadu,+India)
   [![Education](https://img.shields.io/badge/Education-B.Tech%20CSE%20(Cybersecurity)%20%7C%20SRMIST-0F172A?style=flat-square&logo=academia&logoColor=38BDF8)](#-education)
-  [![RHCSA](https://img.shields.io/badge/Red%20Hat-RHCSA%20Certified-EE0000?style=flat-square&logo=redhat&logoColor=white)](#-certifications)
+  [![Linux SysAdmin](https://img.shields.io/badge/Linux-RHCSA--Level%20Preparation-FCC624?style=flat-square&logo=linux&logoColor=black)](#-linux-administration--systems-engineering)
   [![Academic Rank](https://img.shields.io/badge/Academic%20Standing-Top%2010%25%20(CGPA%208.2)-10B981?style=flat-square&logo=target&logoColor=white)](#-education)
-  [![Hackathon Wins](https://img.shields.io/badge/Hackathons-4x%20Winner%20%7C%2010%2B%20Finalist-6366F1?style=flat-square&logo=hackathebox&logoColor=white)](#-achievements--recognition)
+  [![Hackathon Wins](https://img.shields.io/badge/Hackathons-4x%20Winner%20%7C%2010%2B%20Finalist-6366F1?style=flat-square&logo=hackathebox&logoColor=white)](#-achievements--track-record)
 
   <br />
 
@@ -29,11 +34,11 @@
 
 ---
 
-### 📌 Professional Profile
+### 📌 Technical Profile & Positioning
 
-I am a cybersecurity-focused Computer Science undergraduate and **Red Hat Certified System Administrator (RHCSA)** at SRM Institute of Science and Technology. My engineering focus centers on building secure, resilient software systems and defending infrastructure against modern attack vectors.
+I am a cybersecurity-focused Computer Science undergraduate at SRM Institute of Science and Technology. My engineering focus centers on designing secure software architectures, defensible system infrastructure, and resilient threat-monitoring pipelines.
 
-I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC)**, **Zero-Trust architectures**, **Linux system administration**, **threat detection**, **ICS/OT security telemetry**, and **full-stack backend engineering (FastAPI, Flask, React, Next.js)**. An active competitive engineer with **4 hackathon championships** and **CTF finalist rankings**, I combine low-level systems knowledge with defensible software engineering to solve complex security problems.
+I combine deep hands-on expertise in **Linux & System Administration (RHCSA-level preparation)** with practical defensive engineering spanning **Post-Quantum Cryptography (PQC)**, **Zero-Trust policy enforcement (OPA)**, **threat detection**, **ICS/OT cyber-physical simulation**, and **full-stack backend engineering (FastAPI, Flask, React, Next.js)**. An active competitive engineer with **4 hackathon championships** and **CTF finalist rankings**, I build production-minded security solutions grounded in rigorous systems knowledge.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -59,9 +64,9 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
     <td width="50%" valign="top">
       <h4>🐧 Linux & System Administration</h4>
       <ul>
-        <li><strong>Red Hat Certified System Administrator (RHCSA)</strong></li>
+        <li><strong>RHCSA-level Linux administration knowledge & preparation</strong></li>
         <li>OS deployment, lab infrastructure provisioning & lifecycle management</li>
-        <li>Kernel/user-space troubleshooting, permissions & system debugging</li>
+        <li>Kernel/user-space diagnostics, permissions & system debugging</li>
       </ul>
     </td>
   </tr>
@@ -78,7 +83,7 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
       <h4>💻 Backend & Full-Stack Engineering</h4>
       <ul>
         <li>High-throughput REST API microservices with <strong>FastAPI & Flask</strong></li>
-        <li>Modern client interfaces using <strong>React, Next.js, Flutter & Streamlit</strong></li>
+        <li>Modern interfaces using <strong>React, Next.js, Flutter & Streamlit</strong></li>
         <li>Healthcare interoperability engineering with <strong>FHIR standards</strong></li>
       </ul>
     </td>
@@ -95,7 +100,7 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
     <td width="50%" valign="top">
       <h4>☁️ DevOps, Observability & Cloud</h4>
       <ul>
-        <li>Containerized workflows using <strong>Docker</strong></li>
+        <li>Containerized environments using <strong>Docker</strong></li>
         <li>Full-stack observability with <strong>Prometheus, Grafana, Loki & Alertmanager</strong></li>
         <li>Foundational cloud engineering & distributed storage (IPFS / Ethereum)</li>
       </ul>
@@ -105,7 +110,7 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Complete Technical Arsenal
 
 ### 💻 Programming Languages
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](#)
@@ -122,11 +127,11 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 [![Zero-Trust](https://img.shields.io/badge/Zero--Trust%20Architecture-OPA%20Policies-0284C7?style=flat-square)](#)
 [![Post-Quantum Crypto](https://img.shields.io/badge/PQC-ML--KEM%20%7C%20ML--DSA%20%7C%20SLH--DSA-0284C7?style=flat-square)](#)
 
-### 🔍 Security Tools & System Administration
-[![Linux](https://img.shields.io/badge/Linux-RHCSA%20Certified-FCC624?style=flat-square&logo=linux&logoColor=black)](#)
-[![Nmap](https://img.shields.io/badge/Nmap-Reconnaissance-004088?style=flat-square)](#)
-[![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Web%20Auditing-FF6633?style=flat-square&logo=burpsuite&logoColor=white)](#)
-[![System Administration](https://img.shields.io/badge/System%20Admin-OS%20Provisioning%20%26%20Troubleshooting-1E293B?style=flat-square)](#)
+### 🐧 Systems & Security Tools
+[![Linux](https://img.shields.io/badge/Linux-Administration%20%26%20Hardening-FCC624?style=flat-square&logo=linux&logoColor=black)](#)
+[![Nmap](https://img.shields.io/badge/Nmap-Network%20Auditing-004088?style=flat-square)](#)
+[![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Web%20Vulnerability%20Testing-FF6633?style=flat-square&logo=burpsuite&logoColor=white)](#)
+[![System Administration](https://img.shields.io/badge/System%20Admin-OS%20Provisioning-1E293B?style=flat-square)](#)
 [![System Debugging](https://img.shields.io/badge/System%20Debugging-Diagnostics-1E293B?style=flat-square)](#)
 
 ### 🚀 Backend & Full-Stack Development
@@ -159,13 +164,20 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 ### 1. QAVACH — Post-Quantum Cryptography E-Governance Security Platform
 > **Zero-Trust E-Governance Identity, Verifiable Attestation & Quantum-Resilient Cryptographic Infrastructure**
 > 
-> 🥇 **First Prize Winner — CyberShield 2026 (₹50,000 Award)**
+> 🥇 **First Prize Winner — CyberShield 2026 (₹50,000 Cash Prize)**
 
-* **Problem:** Classical asymmetric cryptographic schemes (RSA, ECC) are inherently susceptible to future quantum decryption (Shor's Algorithm). Modern digital governance requires quantum-safe identity verification without compromising privacy or performance.
+```
+┌─────────────────┐       ┌──────────────────────┐       ┌───────────────────┐       ┌────────────────────────┐
+│  Mobile Wallet  │ ───>  │ Selective Disclosure │ ───>  │  OPA Policy Gate  │ ───>  │ PQC Signature & KeyEx  │
+│ (Flutter Client)│       │ (Zero Data Leakage)  │       │ (FastAPI Backend) │       │ (ML-KEM/ML-DSA/SLH-DSA)│
+└─────────────────┘       └──────────────────────┘       └───────────────────┘       └────────────────────────┘
+```
+
+* **Problem:** Classical asymmetric cryptographic schemes (RSA, ECC) are vulnerable to future quantum decryption (Shor's Algorithm). E-governance portals require quantum-safe identity verification without compromising citizen data privacy.
 * **Solution:** Designed and engineered a zero-trust e-governance architecture powered by NIST-standardized Post-Quantum Cryptography primitives, Open Policy Agent (OPA) validation, and client-side verifiable credential verification.
 * **Security & Engineering Highlights:**
-  * Implemented **Post-Quantum Cryptographic primitives**: **ML-KEM** (Key Encapsulation Mechanism) for quantum-safe key exchange, and **ML-DSA** & **SLH-DSA** for quantum-resistant digital signatures.
-  * Integrated **Policy-Gated Credential Attestation** using Open Policy Agent (OPA) for fine-grained, dynamic access control.
+  * Implemented **Post-Quantum Cryptographic primitives**: **ML-KEM** for quantum-safe key exchange, and **ML-DSA** & **SLH-DSA** for quantum-resistant digital signatures.
+  * Integrated **Policy-Gated Credential Attestation** using Open Policy Agent (OPA) for dynamic, fine-grained access control.
   * Engineered **Privacy-Preserving Selective Disclosure** on-device, enabling users to prove specific identity claims without exposing full personal datasets.
   * Built an automated **Cryptography Bill of Materials (CBOM)** dashboard to inventory, track, and audit active cryptographic algorithms and key strengths.
   * Developed modular microservices via **FastAPI** coupled with a cross-platform **Flutter** mobile security wallet for on-device verification.
@@ -177,7 +189,14 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 ### 2. C.A.R.E — Clinical Action & Response Engine
 > **AI-Driven Edge Computing Emergency Response & Low-Latency Patient Triage System**
 > 
-> 🥈 **Second Prize Winner — Kyberastra Hackathon (₹10,000 Award)**
+> 🥈 **Second Prize Winner — Kyberastra Hackathon (₹10,000 Cash Prize)**
+
+```
+┌────────────────────────┐       ┌─────────────────────┐       ┌──────────────────────┐       ┌───────────────────────┐
+│ Patient Vital Telemetry│ ───>  │ Edge Processing Node│ ───>  │ Sub-Second AI Triage │ ───>  │ FHIR Interoperability │
+│  (Real-Time Ingestion) │       │ (Low-Latency Worker)│       │ (Prioritization)     │       │ (Hospital Cloud Sync) │
+└────────────────────────┘       └─────────────────────┘       └──────────────────────┘       └───────────────────────┘
+```
 
 * **Problem:** Emergency medical triage workflows suffer from data latency and fragmentation, causing delayed clinical interventions during critical golden-hour patient intake.
 * **Solution:** Built an intelligent emergency response engine combining localized edge computing for sub-second patient triage scoring with cloud-based intelligence and international healthcare interoperability standards.
@@ -193,7 +212,14 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 ### 3. C.A.R.E-X — Decentralized Healthcare Trust Layer
 > **Blockchain-Based Immutable Patient Consent Management & Health Data Audit Infrastructure**
 > 
-> 🥈 **Second Prize Winner — DLTA Build 24-Hour Hackathon (₹10,000 Award)**
+> 🥈 **Second Prize Winner — DLTA Build 24-Hour Hackathon (₹10,000 Cash Prize)**
+
+```
+┌────────────────────────┐       ┌────────────────────────┐       ┌──────────────────────┐       ┌───────────────────────┐
+│ Patient / Hospital App │ ───>  │ Ethereum Smart Contract│ ───>  │ Encrypted IPFS Node  │ ───>  │ Immutable Audit Trail │
+│ (Next.js / React UI)   │       │ (Consent Governance)   │       │ (Decentralized Store)│       │ (Tamper-Proof Logs)   │
+└────────────────────────┘       └────────────────────────┘       └──────────────────────┘       └───────────────────────┘
+```
 
 * **Problem:** Centralized medical data repositories are vulnerable to unauthorized access, internal tampering, single-point failures, and lack patient-verifiable consent enforcement.
 * **Solution:** Engineered a decentralized trust layer utilizing Ethereum smart contracts and IPFS to provide immutable audit logging, patient-controlled cryptographic consent, and permissioned medical record access.
@@ -210,6 +236,13 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 > **Industrial Control Systems Threat Simulation, Telemetry Bridge & Real-Time Observability**
 > 
 > 🥇 **First Prize Winner — Hack The Box Chennai Hackathon**
+
+```
+┌───────────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐       ┌──────────────────────┐
+│ Physical Arduino Sens.│ ───>  │ Python Flask Bridge  │ ───>  │ ICS Process Engine   │ ───>  │ Prometheus / Loki    │
+│ (Telemetry Ingestion) │       │ (Data Serialization) │       │ (Attack Simulation)  │       │ (Grafana Alerts)     │
+└───────────────────────┘       └──────────────────────┘       └──────────────────────┘       └──────────────────────┘
+```
 
 * **Problem:** Operational Technology (OT) and Industrial Control Systems (ICS) are increasingly targeted by sensor spoofing and telemetry manipulation attacks that bypass traditional IT intrusion detection.
 * **Solution:** Created an end-to-end industrial cybersecurity testbed combining physical hardware sensors with an industrial process simulator and an observability stack to simulate cyber-physical attacks and detect telemetry anomalies in real time.
@@ -239,25 +272,33 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 
 ---
 
+## 🐧 Linux Administration & Systems Engineering
+
+> **RHCSA Preparation & Hands-on Linux Administration Knowledge**
+
+* **System Initialization & Service Governance:** Managing `systemd` target units, daemon lifecycles, and automated service recovery.
+* **Storage & File System Management:** Configuring partition tables, LVM (Logical Volume Management), swap space, file system creation (`ext4`, `xfs`), and mount configurations via `/etc/fstab`.
+* **Access Control & Permissions:** Enforcing POSIX discretionary permissions (`chmod`, `chown`, `umask`), Access Control Lists (`getfacl`/`setfacl`), and user/group security baselines.
+* **Process & Performance Diagnostics:** Analyzing system workloads using `htop`, `vmstat`, `iostat`, `strace`, log rotation, and journal inspection (`journalctl`).
+* **Network & Firewall Hardening:** Configuring network interfaces via `nmcli`/`iproute2`, SSH key-based authentication hardening, and basic `firewalld`/`iptables` packet filtering.
+
+---
+
 ## 📜 Certifications
 
 <table>
   <tr>
     <td width="50%">
-      <strong>🏅 Red Hat Certified System Administrator (RHCSA)</strong><br />
-      <em>Red Hat</em> &bull; Enterprise Linux administration, user/group security, storage management, systemd service governance & troubleshooting
-    </td>
-    <td width="50%">
       <strong>🏅 Google Cybersecurity Professional Certificate</strong><br />
       <em>Google</em> &bull; Security defense, SIEM tooling, network analysis, Linux, Python automation & incident response fundamentals
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <strong>🏅 ISO/IEC 27001 – Information Security Foundation</strong><br />
       <em>Information Security Management Systems (ISMS)</em> &bull; Security governance, risk management frameworks & compliance controls
     </td>
-    <td width="50%">
+  </tr>
+  <tr>
+    <td colspan="2">
       <strong>🏅 Fortinet Certified Associate (Cybersecurity)</strong><br />
       <em>Fortinet</em> &bull; Network security fundamentals, threat landscape analysis & next-generation firewall concepts
     </td>
@@ -266,7 +307,7 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
 
 ---
 
-## 🏆 Achievements & Recognition
+## 🏆 Achievements & Track Record
 
 <div align="center">
 
@@ -291,9 +332,9 @@ I bring practical, hands-on experience spanning **Post-Quantum Cryptography (PQC
   └───────────────────┘     └───────────────────┘     └───────────────────┘
 ```
 
-My core security engineering philosophy is rooted in **defense-in-depth**, **least-privilege governance**, and **resilience by design**. I focus on bridging low-level system administration (RHCSA) with modern application and network defense:
+My security engineering philosophy is rooted in **defense-in-depth**, **least-privilege governance**, and **resilience by design**:
 
-* **Post-Quantum Cryptography & Identity:** Preparing applications for the post-RSA landscape with lattice-based algorithms (**ML-KEM**, **ML-DSA**) and verifiable credentials.
+* **Post-Quantum Cryptography & Identity:** Preparing systems for the post-RSA landscape with lattice-based algorithms (**ML-KEM**, **ML-DSA**, **SLH-DSA**) and verifiable credentials.
 * **Systems Hardening & Linux Administration:** Applying strict access controls, kernel parameter tuning, secure service isolation, and automated system diagnostics.
 * **Operational Technology & ICS Defense:** Detecting sensor spoofing, anomalous telemetry, and cyber-physical attack vectors through continuous observability.
 * **Threat Mitigation & Vulnerability Research:** Analyzing phishing telemetry, inspecting malware behaviors, and securing REST APIs against exploitation.
@@ -357,7 +398,7 @@ I am actively seeking **Cybersecurity, Security Engineering, Linux/Systems, SOC/
 <br />
 
 ```bash
-# Clone contact info via curl / bash
+# Query profile metadata via GitHub API
 $ curl -s https://api.github.com/users/devaganeshs | jq '{name: .name, bio: .bio, location: .location}'
 ```
 
