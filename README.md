@@ -1,12 +1,12 @@
 <div align="center">
 
   <!-- HERO BANNER -->
-  <img src="assets/banner.svg" alt="Devaganesh S — Cybersecurity & Systems Engineer Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/devaganeshs/devaganeshs/main/assets/banner.svg" alt="Devaganesh S — Cybersecurity & Systems Engineer Banner" width="100%" />
 
   <br /><br />
 
   <!-- AVATAR & IDENTITY -->
-  <img src="assets/avatar.svg" alt="Devaganesh S Profile Avatar" width="115" height="115" style="border-radius: 50%; max-width: 100%;" />
+  <img src="https://raw.githubusercontent.com/devaganeshs/devaganeshs/main/assets/avatar.svg" alt="Devaganesh S Profile Avatar" width="115" height="115" style="border-radius: 50%; max-width: 100%;" />
 
   <br />
 
@@ -385,7 +385,7 @@ My security engineering philosophy is rooted in **defense-in-depth**, **least-pr
 > *"Where my GitHub activity becomes the track."*
 
 <div align="center">
-  <img src="assets/cyber_racing.svg" alt="Cyber Contribution Racing Visualization" width="100%" />
+  <img src="https://raw.githubusercontent.com/devaganeshs/devaganeshs/main/assets/cyber_racing.svg" alt="Cyber Contribution Racing Visualization" width="100%" />
 </div>
 
 ---
