@@ -20,7 +20,7 @@
   <br />
 
   [![Email](https://img.shields.io/badge/Email-devaganesh0610%40gmail.com-0284C7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devaganesh0610@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devaganesh-shanmugam)
   [![GitHub](https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devaganeshs)
 
 </div>
@@ -350,7 +350,7 @@ I am actively seeking **Cybersecurity, Security Engineering, Linux/Systems, SOC/
 | Contact Channel | Destination |
 | :--- | :--- |
 | 📧 **Email** | [devaganesh0610@gmail.com](mailto:devaganesh0610@gmail.com) |
-| 💼 **LinkedIn** | [linkedin.com/in/YOUR_LINKEDIN_USERNAME](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME) |
+| 💼 **LinkedIn** | [linkedin.com/in/devaganesh-shanmugam](https://www.linkedin.com/in/devaganesh-shanmugam) |
 | 💻 **GitHub** | [github.com/devaganeshs](https://github.com/devaganeshs) |
 | 📍 **Location** | Kumbakonam, Tamil Nadu, India |
 
