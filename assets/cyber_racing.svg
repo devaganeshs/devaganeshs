@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cyberTrackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030611" />
+      <stop offset="50%" stop-color="#081024" />
+      <stop offset="100%" stop-color="#02040a" />
+    </linearGradient>
+
+    <!-- Neon Glow Accents -->
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="emeraldNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Glowing filter effects -->
+    <filter id="carGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="trackGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Digital Grid Pattern -->
+    <pattern id="racingGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3" />
+      <circle cx="30" cy="30" r="0.75" fill="#0ea5e9" opacity="0.2" />
+    </pattern>
+
+    <style>
+      /* Smooth circuit vehicle animation */
+      .cyber-car-group {
+        offset-path: path("M 160 160 C 160 70, 360 70, 500 160 C 640 250, 840 250, 840 160 C 840 70, 640 70, 500 160 C 360 250, 160 250, 160 160 Z");
+        offset-rotate: auto;
+        animation: raceCircuitLoop 10s infinite linear;
+      }
+
+      /* Pulse on data milestones */
+      .milestone-pulse-1 { animation: cpPulse 3s infinite ease-in-out; }
+      .milestone-pulse-2 { animation: cpPulse 3s infinite ease-in-out 0.75s; }
+      .milestone-pulse-3 { animation: cpPulse 3s infinite ease-in-out 1.5s; }
+      .milestone-pulse-4 { animation: cpPulse 3s infinite ease-in-out 2.25s; }
+
+      @keyframes raceCircuitLoop {
+        0% { offset-distance: 0%; }
+        100% { offset-distance: 100%; }
+      }
+
+      @keyframes cpPulse {
+        0%, 100% { r: 6px; fill: #0284c7; }
+        50% { r: 10px; fill: #00f2fe; filter: drop-shadow(0 0 8px #00f2fe); }
+      }
+
+      .telemetry-blink {
+        animation: blinkLed 1.5s infinite;
+      }
+      @keyframes blinkLed { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0.3; } }
+    </style>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1000" height="320" fill="url(#cyberTrackBg)" rx="12" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Texture -->
+  <rect width="1000" height="320" fill="url(#racingGrid)" rx="12" />
+
+  <!-- Ambient Light Backdrops -->
+  <circle cx="160" cy="160" r="140" fill="#00f2fe" opacity="0.04" filter="url(#carGlow)" />
+  <circle cx="840" cy="160" r="140" fill="#0ea5e9" opacity="0.04" filter="url(#carGlow)" />
+  <circle cx="500" cy="160" r="100" fill="#10b981" opacity="0.03" filter="url(#carGlow)" />
+
+  <!-- Top Futuristic HUD Bar -->
+  <g transform="translate(40, 30)">
+    <!-- Circuit Title Badge -->
+    <rect x="0" y="0" width="260" height="24" rx="6" fill="#0b1426" stroke="#0284c7" stroke-width="1" />
+    <circle cx="12" cy="12" r="4" fill="#10b981" class="telemetry-blink" />
+    <text x="24" y="16" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1">CYBER CONTRIBUTION RACING</text>
+
+    <!-- Telemetry Badges -->
+    <text x="320" y="16" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#94a3b8">TELEMETRY: <tspan fill="#00f2fe">LIVE_STREAM</tspan></text>
+    <text x="540" y="16" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#94a3b8">TRACK MAPPING: <tspan fill="#38bdf8">GITHUB_CONTRIBUTION_GRAPH</tspan></text>
+    <text x="810" y="16" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#10b981">STATUS: ACTIVE ●</text>
+  </g>
+
+  <!-- RACING CIRCUIT TRACK -->
+  <g>
+    <!-- Background Road Width Bed -->
+    <path d="M 160 160 C 160 70, 360 70, 500 160 C 640 250, 840 250, 840 160 C 840 70, 640 70, 500 160 C 360 250, 160 250, 160 160 Z" 
+          fill="none" 
+          stroke="#0f172a" 
+          stroke-width="36" 
+          stroke-linecap="round" />
+
+    <!-- Road Border Glowing Curbs (Cyan Outer / Blue Inner) -->
+    <path d="M 160 160 C 160 70, 360 70, 500 160 C 640 250, 840 250, 840 160 C 840 70, 640 70, 500 160 C 360 250, 160 250, 160 160 Z" 
+          fill="none" 
+          stroke="#0284c7" 
+          stroke-width="26" 
+          opacity="0.3" />
+
+    <!-- Center Line Pulse Track -->
+    <path d="M 160 160 C 160 70, 360 70, 500 160 C 640 250, 840 250, 840 160 C 840 70, 640 70, 500 160 C 360 250, 160 250, 160 160 Z" 
+          fill="none" 
+          stroke="url(#cyanNeon)" 
+          stroke-width="3" 
+          stroke-dasharray="12 8" 
+          filter="url(#trackGlow)" />
+
+    <!-- Inner Core Guide -->
+    <path d="M 160 160 C 160 70, 360 70, 500 160 C 640 250, 840 250, 840 160 C 840 70, 640 70, 500 160 C 360 250, 160 250, 160 160 Z" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="1" 
+          opacity="0.6" />
+  </g>
+
+  <!-- CONTRIBUTION TELEMETRY DATA MILESTONES (Checkpoints) -->
+  <!-- Checkpoint 1: RECON / COMMITS -->
+  <g transform="translate(160, 160)">
+    <circle cx="0" cy="0" r="16" fill="#091329" stroke="#0284c7" stroke-width="1.5" />
+    <circle cx="0" cy="0" class="milestone-pulse-1" />
+    <text x="0" y="30" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#38bdf8" text-anchor="middle">CP_01: COMMITS</text>
+  </g>
+
+  <!-- Checkpoint 2: SYSTEM ATTESTATION -->
+  <g transform="translate(500, 160)">
+    <circle cx="0" cy="0" r="16" fill="#091329" stroke="#00f2fe" stroke-width="1.5" />
+    <circle cx="0" cy="0" class="milestone-pulse-2" />
+    <text x="0" y="-22" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#00f2fe" text-anchor="middle">CP_02: ZERO_TRUST</text>
+  </g>
+
+  <!-- Checkpoint 3: CODE DEPLOYMENT -->
+  <g transform="translate(840, 160)">
+    <circle cx="0" cy="0" r="16" fill="#091329" stroke="#10b981" stroke-width="1.5" />
+    <circle cx="0" cy="0" class="milestone-pulse-3" />
+    <text x="0" y="30" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#10b981" text-anchor="middle">CP_03: DEPLOY</text>
+  </g>
+
+  <!-- Checkpoint 4: APEX SECURITY -->
+  <g transform="translate(500, 95)">
+    <circle cx="0" cy="0" r="12" fill="#091329" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="0" cy="0" class="milestone-pulse-4" />
+    <text x="0" y="-16" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#94a3b8" text-anchor="middle">APEX: SECURE_CORE</text>
+  </g>
+
+  <!-- THE FUTURISTIC CYBER SECURITY CAR (Animates seamlessly along the track) -->
+  <g class="cyber-car-group">
+    <!-- Engine Jet Glow / Thruster Trail -->
+    <ellipse cx="-24" cy="0" rx="14" ry="4" fill="#00f2fe" opacity="0.8" filter="url(#carGlow)" />
+    <polygon points="-16,-4 -34,0 -16,4" fill="#38bdf8" opacity="0.9" />
+
+    <!-- Aerodynamic Chassis (Metallic Obsidian / Midnight Blue) -->
+    <path d="M 24 0 
+             C 22 -6, 12 -9, -4 -9 
+             C -14 -9, -18 -7, -22 -6 
+             C -24 -3, -24 3, -22 6 
+             C -18 7, -14 9, -4 9 
+             C 12 9, 22 6, 24 0 Z" 
+          fill="#0a1226" 
+          stroke="#00f2fe" 
+          stroke-width="1.75" 
+          filter="url(#carGlow)" />
+
+    <!-- Cockpit Glass (Cyber Cyan Tint) -->
+    <path d="M 12 0 C 8 -4, 0 -5, -8 -4 C -8 0, -8 0, -8 4 C 0 5, 8 4, 12 0 Z" 
+          fill="#0284c7" 
+          stroke="#38bdf8" 
+          stroke-width="1" />
+    
+    <!-- Central Security Shield Insignia on Hood -->
+    <polygon points="17,0 13,-2.5 13,2.5" fill="#ffffff" />
+    <circle cx="2" cy="0" r="2" fill="#00f2fe" />
+
+    <!-- Headlight Beams (Front Illumination) -->
+    <polygon points="23,-5 42,-8 42,-2" fill="#00f2fe" opacity="0.6" filter="url(#carGlow)" />
+    <polygon points="23,5 42,2 42,8" fill="#00f2fe" opacity="0.6" filter="url(#carGlow)" />
+    
+    <!-- Wheel Glow Indicators -->
+    <rect x="-14" y="-10" width="8" height="2" rx="1" fill="#38bdf8" />
+    <rect x="-14" y="8" width="8" height="2" rx="1" fill="#38bdf8" />
+    <rect x="10" y="-9" width="7" height="2" rx="1" fill="#38bdf8" />
+    <rect x="10" y="7" width="7" height="2" rx="1" fill="#38bdf8" />
+  </g>
+
+  <!-- Bottom Diagnostic Telemetry Footer -->
+  <g transform="translate(40, 292)">
+    <line x1="0" y1="-10" x2="920" y2="-10" stroke="#1e293b" stroke-width="1" />
+    <text x="0" y="6" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#64748b">MODE: AUTONOMOUS TELEMETRY &bull; VEHICLE: DEVAGANESH-SEC-01 &bull; CIRCUIT: INFINITY_CONTRIBUTION_LOOP</text>
+    <text x="730" y="6" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="600" fill="#10b981">INTEGRITY: 100% VERIFIED [PASS]</text>
+  </g>
+</svg>

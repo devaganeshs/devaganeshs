@@ -380,6 +380,16 @@ My security engineering philosophy is rooted in **defense-in-depth**, **least-pr
 
 ---
 
+## 🏎️ Cyber Contribution Racing
+
+> *"Where my GitHub activity becomes the track."*
+
+<div align="center">
+  <img src="assets/cyber_racing.svg" alt="Cyber Contribution Racing Visualization" width="100%" />
+</div>
+
+---
+
 ## 📬 Connect With Me
 
 <div align="center">
