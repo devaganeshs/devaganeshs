@@ -380,6 +380,56 @@ My security engineering philosophy is rooted in **defense-in-depth**, **least-pr
 
 ---
 
+## 🎮 Cybersecurity Contribution Arcade
+
+> *"Where real GitHub telemetry becomes interactive cyber defense and game simulations."*
+
+<div align="center">
+
+### 👾 01 &bull; Pac-Man Contribution Matrix
+*Pac-Man navigates live GitHub activity blocks, consuming commit telemetry while evading threat actors.*
+
+<img src="assets/arcade/pacman_arcade.svg" alt="Pac-Man Contribution Matrix" width="100%" />
+
+<br /><br />
+
+### 🐍 02 &bull; Contribution Snake (`snk`)
+*Live contribution snake traversing actual commit history (daily automated GitHub Actions sync).*
+
+<img src="https://raw.githubusercontent.com/devaganeshs/devaganeshs/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" onerror="this.onerror=null;this.src='assets/arcade/cyber_defense_matrix.svg';" />
+
+<br /><br />
+
+### 🛡️ 03 &bull; Cyber Defense & Threat Detection Matrix
+*Contribution telemetry mapped into a zero-trust network radar and verification pipeline.*
+
+<img src="assets/arcade/cyber_defense_matrix.svg" alt="Cyber Defense Matrix" width="100%" />
+
+<br /><br />
+
+### 🚀 04 &bull; Cyber Space Interceptor
+*Laser defense system targeting contribution frequency blocks.*
+
+<img src="assets/arcade/space_shooter.svg" alt="Cyber Space Interceptor" width="100%" />
+
+<br /><br />
+
+### 🏎️ 05 &bull; Telemetry Circuit Racing
+*Development velocity mapped into a continuous cyber racing track.*
+
+<img src="assets/arcade/cyber_circuit.svg" alt="Telemetry Circuit Racing" width="100%" />
+
+<br /><br />
+
+### 💻 06 &bull; Linux Hacker Terminal Stream
+*Simulated system diagnostics verifying continuous integration and security posture.*
+
+<img src="assets/arcade/terminal_stream.svg" alt="Linux Terminal Stream" width="100%" />
+
+</div>
+
+---
+
 ## 📬 Connect With Me
 
 <div align="center">
