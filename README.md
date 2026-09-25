@@ -12,7 +12,7 @@
 
   # DEVAGANESH S
 
-  **Cybersecurity-Focused Engineer &bull; Linux &amp; System Administration &bull; Web Security &bull; Cryptography &bull; Security Engineering**
+  **Systems Engineer &bull; Linux &amp; System Administration &bull; Web Security &bull; Cryptography &bull; Security Engineering**
 
   <br />
 
